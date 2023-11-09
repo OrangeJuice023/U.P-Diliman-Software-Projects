@@ -47,3 +47,6 @@ Here's a brief overview of the key functions and components in the code:
 ### Prerequisites
 
 You need to have Python installed on your system to run this game.
+
+## Explanation per Function
+
