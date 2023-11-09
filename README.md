@@ -1,4 +1,4 @@
-# MineSweeper with a Twist
+c# MineSweeper with a Twist
 
 This is a Python implementation of the classic Minesweeper game. The codebase consists of several key functions and components to create and play the game.
 
