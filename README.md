@@ -50,3 +50,15 @@ You need to have Python installed on your system to run this game.
 
 ## Explanation per Function
 
+**import itertools
+import random as rand
+from string import ascii_uppercase
+
+# Created function to generate 8 unique mine locations within a 7x7 grid
+def generate_mines():
+    return [ascii_uppercase[a] + str(b + 1) for a, b in rand.sample(list(itertools.product(range(7), repeat=2)), k=8)]
+
+# Function to select a defuser by technically removing it from the list of genererated mines
+def select_def(mines, defuser):
+    mines.remove(defuser)
+    return mines**
